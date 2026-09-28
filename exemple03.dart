@@ -9,7 +9,7 @@ void main() {
   }
 
   print("B) -------------------------------------"); 
-  var num3 = num2;
+  var num3 = num2.toInt();
   while (num3 >= 0) {
     print(num3);
     num3--;
@@ -17,7 +17,7 @@ void main() {
 
   print("C) -------------------------------------");
   do {
-    print(num1);
+    print(num1.toInt());
     num1++;
   } while (num1 <= num2);
 }
